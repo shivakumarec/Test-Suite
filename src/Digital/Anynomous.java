@@ -27,7 +27,7 @@ public class Anynomous {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 
 		// Home Page
-		driver.navigate().to("http://illnqw2092:12050/");
+		driver.navigate().to("http://illnqw2989:12050/");
 		driver.findElement(By.id("onetrust-accept-btn-handler")).click();
 		driver.findElement(By.cssSelector("a[aria-label^='Phones']")).click();
 
@@ -58,7 +58,7 @@ public class Anynomous {
 		// Pick My Plan
 		js.executeScript("window.scrollBy(0,500)");
 		driver.findElement(
-				By.xpath("//button[@aria-label='select this plan Consumer Unlimited Evolved 3.0 Even Better $20']"))
+				By.xpath("//button[@aria-label='select this plan Unlimited Data-Even Better 3.0']"))
 				.click();
 
 		// Device Protection
